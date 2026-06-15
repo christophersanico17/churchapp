@@ -1,0 +1,13 @@
+{
+  "name": "churchapp",
+  "version": "1.0.0",
+  "description": "Church tracker application",
+  "main": "static-server.cjs",
+  "scripts": {
+    "start": "node static-server.cjs"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.43.4",
+    "dotenv": "^16.4.5"
+  }
+}
